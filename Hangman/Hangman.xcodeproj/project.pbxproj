@@ -18,6 +18,8 @@
 		ECC22F4D1C89177600749E58 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = ECC22F4B1C89177600749E58 /* LaunchScreen.storyboard */; };
 		ECC22F7C1C891A6700749E58 /* phrases.plist in Resources */ = {isa = PBXBuildFile; fileRef = ECC22F7B1C891A6700749E58 /* phrases.plist */; };
 		ECC22F7E1C891CF800749E58 /* HangmanPhrases.swift in Sources */ = {isa = PBXBuildFile; fileRef = ECC22F7D1C891CF800749E58 /* HangmanPhrases.swift */; };
+		F030B5261F7F07A500994283 /* HangmanViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = F030B5251F7F07A500994283 /* HangmanViewController.swift */; };
+		F030B5281F7F192F00994283 /* HangmanGame.swift in Sources */ = {isa = PBXBuildFile; fileRef = F030B5271F7F192F00994283 /* HangmanGame.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -69,6 +71,8 @@
 		ECC22F7B1C891A6700749E58 /* phrases.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = phrases.plist; sourceTree = "<group>"; };
 		ECC22F7D1C891CF800749E58 /* HangmanPhrases.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = HangmanPhrases.swift; sourceTree = "<group>"; };
 		EF1B065A85C1613174A6F22F /* HangmanViewControllerTestSuite.csv */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = HangmanViewControllerTestSuite.csv; sourceTree = "<group>"; };
+		F030B5251F7F07A500994283 /* HangmanViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HangmanViewController.swift; sourceTree = "<group>"; };
+		F030B5271F7F192F00994283 /* HangmanGame.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HangmanGame.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -151,6 +155,7 @@
 		ECC22F721C8917D300749E58 /* Controller */ = {
 			isa = PBXGroup;
 			children = (
+				F030B5251F7F07A500994283 /* HangmanViewController.swift */,
 			);
 			name = Controller;
 			sourceTree = "<group>";
@@ -167,6 +172,7 @@
 			isa = PBXGroup;
 			children = (
 				ECC22F7D1C891CF800749E58 /* HangmanPhrases.swift */,
+				F030B5271F7F192F00994283 /* HangmanGame.swift */,
 				ECC22F7B1C891A6700749E58 /* phrases.plist */,
 			);
 			name = Model;
@@ -291,7 +297,9 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				F030B5281F7F192F00994283 /* HangmanGame.swift in Sources */,
 				ECC22F431C89177600749E58 /* AppDelegate.swift in Sources */,
+				F030B5261F7F07A500994283 /* HangmanViewController.swift in Sources */,
 				ECC22F7E1C891CF800749E58 /* HangmanPhrases.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;

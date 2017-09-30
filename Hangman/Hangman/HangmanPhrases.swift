@@ -12,6 +12,7 @@ class HangmanPhrases {
     
     var phrases : NSArray!
     
+    
     // Initialize HangmanPhrase with an array of all possible phrases of the Hangman game
     init() {
         let path = Bundle.main.path(forResource: "phrases", ofType: "plist")
